@@ -4,6 +4,8 @@ This project is a fork of Netsurf with various privacy-focused improvements and 
 
 ## Tristan's Changes
 * Switch to colemak keys for hints: arstneio
+* add the yf keybinding to yank urls based on hints
+* update the reeadme to my needs
 
 ## Why?
 NeoSurf has a different development vision from NetSurf.
