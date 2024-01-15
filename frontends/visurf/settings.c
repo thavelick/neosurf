@@ -18,7 +18,7 @@ struct nsvi_config config = {
 	.font = (char *)"monospace 10",
 
 	.hints = {
-		.alphabet = (char *)"asdfjkl",
+		.alphabet = (char *)"arstneio",
 		.bg = 0xEE2222FF,
 		.border = {
 			.color = 0xFFFFFFFF,

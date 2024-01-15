@@ -2,6 +2,9 @@
 
 This project is a fork of Netsurf with various privacy-focused improvements and additions, and a revamped build system.
 
+## Tristan's Changes
+* Switch to colemak keys for hints: arstneio
+
 ## Why?
 NeoSurf has a different development vision from NetSurf.
 
