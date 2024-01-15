@@ -1157,6 +1157,7 @@ nsvi_init_bindings(struct nsvi_state *state, struct nsvi_bindings *bindings)
 	nsvi_bindings_new(bindings, "<Prior>", "scroll 100%+");
 	nsvi_bindings_new(bindings, "f", "follow");
 	nsvi_bindings_new(bindings, "F", "follow -tb");
+	nsvi_bindings_new(bindings, "yf", "follow -y");
 	nsvi_bindings_new(bindings, "yy", "yank");
 	nsvi_bindings_new(bindings, "yt", "yank -t");
 	nsvi_bindings_new(bindings, "Yy", "yank -p");
