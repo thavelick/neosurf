@@ -1131,6 +1131,7 @@ nsvi_init_bindings(struct nsvi_state *state, struct nsvi_bindings *bindings)
 	nsvi_bindings_new(bindings, "o", "exline 'open '");
 	nsvi_bindings_new(bindings, "O", "exline 'open -t '");
 	nsvi_bindings_new(bindings, "<C-t>", "open -t about:welcome");
+	nsvi_bindings_new(bindings, "gF", "open -t https://frogfind.com/read.php?a=$url");
 	nsvi_bindings_new(bindings, "go", "exline \"open $url\"");
 	nsvi_bindings_new(bindings, "gO", "exline \"open -t $url\"");
 	nsvi_bindings_new(bindings, "<Left>", "scroll -h 20+");
