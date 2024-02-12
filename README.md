@@ -19,10 +19,8 @@ Current focus is on general improvements to the codebase, as well as fixing a nu
 ## Biggest differences from NetSurf
 * [Visurf support](https://sr.ht/~sircmpwn/visurf/), with various upstream improvements and fixes
 * Various upstream improvements and UI enhancements to Gtk frontend
-* Removed compatibility for super old and/or obscure libraries/software/operating systems
-* Dedicated LibreSSL support
 * Numerous privacy improvements
-* Rewritten build system
+* Meson/CMake build system
 * Simplified frontend development
 
 ## Known Issues
@@ -59,7 +57,6 @@ And as root:
 NeoSurf is geared towards the Cobalt operating system, but is intended to remaining portable on any Linux or BSD-based platforms.
 
 At build-time, NeoSurf requires the following programs:
-* python3
 * cmake
 * any CMake-compatible build utility (typically GNU make)
 * gperf
@@ -72,7 +69,7 @@ At runtime and build-time, the following libraries and their development headers
 * OpenSSL 3.x or LibreSSL (libcrypto, libssl)
 * libpsl
 * libxml2
-* libjpeg, libjpeg-turbo or mozjpeg (optional)
+* libjpeg v6, libjpeg-turbo or mozjpeg (optional)
 * libpng (optional)
 * libwebp (optional)
 * cairo (Visurf and Gtk only)
